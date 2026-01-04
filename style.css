@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+.container { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center; width: 350px; }
+.row { display: flex; justify-content: space-between; gap: 15px; margin: 20px 0; }
+.card { flex: 1; padding: 15px; border-radius: 10px; color: white; }
+.compra { background-color: #27ae60; }
+.venta { background-color: #2980b9; }
+.card h3 { margin: 0; font-size: 0.8rem; opacity: 0.9; }
+.card p { margin: 5px 0 0; font-size: 1.5rem; font-weight: bold; }
+button { background: #34495e; color: white; border: none; padding: 12px 25px; border-radius: 25px; cursor: pointer; width: 100%; font-weight: bold; }
+button:hover { background: #2c3e50; }
+.hidden { display: none; }
+.date { font-size: 0.75rem; color: #7f8c8d; margin-top: 15px; }

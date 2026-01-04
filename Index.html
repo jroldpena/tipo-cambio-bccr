@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipo de Cambio BCCR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Tipo de Cambio BCCR</h2>
+        <div id="loading">Consultando al Banco Central...</div>
+        
+        <div id="results" class="hidden">
+            <div class="row">
+                <div class="card compra">
+                    <h3>COMPRA</h3>
+                    <p id="compra">0.00</p>
+                </div>
+                <div class="card venta">
+                    <h3>VENTA</h3>
+                    <p id="venta">0.00</p>
+                </div>
+            </div>
+            <p class="date">Actualizado al: <span id="fecha">--/--/----</span></p>
+        </div>
+        
+        <button onclick="consultarTipoCambio()">Actualizar Datos</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
